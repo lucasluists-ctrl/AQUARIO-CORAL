@@ -85,3 +85,155 @@ body {
 .dropdown:hover .submenu {
     display: block;
 }
+
+.inicio {
+    height: 690px;
+
+    background-image: url("../img/INICIO.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 80px 5% 0;
+}
+
+/* Texto e botão */
+.apresentacao {
+    width: 45%;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    gap: 25px;
+}
+
+.apresentacao p {
+    color: white;
+    font-size: 25px;
+    line-height: 1.5;
+
+    max-width: 400px;
+    margin: 0 auto 25px;
+
+    text-align: center;
+    transform: translateX(50px);
+}
+
+/* Botão */
+.botao-sobre {
+    display: inline-block;
+
+    background-color: white;
+    color: #073e83;
+
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+
+    padding: 12px 35px;
+    border-radius: 40px;
+    transform: translateX(60px);
+}
+
+.botao-sobre:hover {
+    background-color: #d9f4ff;
+}
+
+.ingresso {
+    height: 620px;
+
+    background-image: url("../img/SECAO INGRESSOS.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 80px 5% 0;
+}
+
+.apresentacao-ingresso {
+    width: 45%;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    gap: 10px;
+}
+
+.apresentacao-ingresso p {
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    line-height: 1.5;
+    transform: translateX(-50px);
+    max-width: 400px;
+    margin: 0 auto 25px;
+}
+
+.botao-ingresso {
+    display: inline-block;
+
+    background-color: white;
+    color: #073e83;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    padding: 12px 35px;
+    border-radius: 40px;
+    transform: translateX(20px);
+    transform: translateY(30px);
+}
+
+.precos {
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    transform: translateY(-20px);
+    transform: translateX(-6px);
+
+}
+
+.tipo-ingresso {
+    width: 130px;
+    flex-shrink: 0;
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 15px;
+    transform: translateY(-30px);
+    transform: translateX(-50px);
+    text-align: center;
+}
+
+.tipo-ingresso h3 {
+    color: #073e83;
+    background-color: #d9f4ff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.tipo-ingresso p {
+    color: #073e83;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    transform: translateY(30px);
+}
