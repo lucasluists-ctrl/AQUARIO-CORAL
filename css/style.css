@@ -1,0 +1,87 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+    width: 98%;
+    height: 80px;
+    background-color: white;
+    border: 3px solid #75cce8;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 15px;
+
+    position: absolute;
+    top: 5px;
+    left: 1%;
+    z-index: 10;
+}
+
+/* Logo */
+.logo img {
+    width: 120px;
+}
+
+/* Menu */
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* Opções principais */
+.navbar>a,
+.dropdown>a {
+    display: block;
+    padding: 10px 30px;
+    border: 3px solid #4099c9;
+    background-color: #f8f8f8;
+}
+
+/* Menu suspenso */
+.dropdown {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+}
+
+/* Links do submenu */
+.submenu a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #343d85;
+}
+
+/* Mostrar ao passar o mouse */
+.dropdown:hover .submenu {
+    display: block;
+}
