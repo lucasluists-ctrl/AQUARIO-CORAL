@@ -1,0 +1,212 @@
+/* Banner */
+
+.banner-estrutura {
+    width: 100%;
+    height: 380px;
+    background-image: url("../img/banner lala.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 0 12%;
+}
+
+
+
+
+/* Introdução */
+
+.introducao-explore {
+    background-color: white;
+    padding: 65px 15%;
+    text-align: center;
+}
+
+.introducao-explore h2 {
+    color: #275967;
+    font-size: 66px;
+    margin-bottom: 20px;
+}
+
+.introducao-explore p {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* Salas */
+
+.sala {
+    background-color: #f1f8fc;
+    padding: 45px 10%;
+}
+
+.sala-dois {
+    background-color: white;
+}
+
+
+/* Banner das salas */
+
+.banner-sala {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 50px;
+    border-radius: 12px;
+}
+
+.nome-sala {
+    width: 28%;
+    background-color: #40abc3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.nome-sala h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.nome-sala p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.banner-sala img {
+    width: 72%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Animais */
+
+.animal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin: 55px 20px;
+}
+
+.animal img {
+    width: 45%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.texto-animal {
+    width: 50%;
+}
+
+.texto-animal h3 {
+    color: #0751a5;
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+.texto-animal span {
+    display: block;
+    color: #1686b9;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 18px;
+}
+
+.texto-animal p {
+    color: #333;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* Localização */
+
+.local {
+    background-color: #eaf7fc;
+    padding: 75px 10%;
+    text-align: center;
+}
+
+.titulo-local h2 {
+    color: #0751a5;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.titulo-local p {
+    color: #444;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.mapa-aquario img {
+    width: 90%;
+    max-width: 950px;
+    border-radius: 15px;
+}
+
+
+/* Funcionários */
+
+.funcionarios {
+    background-color: white;
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.funcionarios h2 {
+    color: #0751a5;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.subtitulo-funcionarios {
+    color: #555;
+    font-size: 17px;
+    margin-bottom: 55px;
+    line-height: 1.6;
+}
+
+.lista-funcionarios {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.perfil-funcionario {
+    width: 170px;
+    text-align: center;
+}
+
+.perfil-funcionario img {
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #40abc3;
+    margin-bottom: 18px;
+}
+
+.perfil-funcionario h3 {
+    color: #0751a5;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.perfil-funcionario p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+}
