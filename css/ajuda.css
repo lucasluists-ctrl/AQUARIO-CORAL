@@ -1,0 +1,109 @@
+/* Banner */
+
+.banner-ajuda {
+    width: 100%;
+    height: 450px;
+    background-color: #0751a5;
+    background-image: url("../img/banner-ajuda.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.texto-ajuda {
+    width: 60%;
+}
+
+.texto-ajuda h1 {
+    color: rgb(18, 33, 71);
+    font-size: 90px;
+    margin-bottom: 20px;
+}
+
+
+/* Contato */
+
+.contato {
+    background-color: white;
+    padding: 90px 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.texto-contato {
+    width: 48%;
+}
+
+.texto-contato h2 {
+    color: #0751a5;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.texto-contato p {
+    color: #222;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.lista-contatos {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cartao-contato {
+    background-color: #0751a5;
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+}
+
+.cartao-contato h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.cartao-contato a {
+    color: white;
+    font-size: 16px;
+}
+
+
+/* Perguntas */
+
+.perguntas {
+    background-color: white;
+    padding: 70px 15%;
+}
+
+.perguntas h2 {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.perguntas details {
+    background-color: #f1f8fc;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.perguntas summary {
+    color: #0751a5;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.perguntas details p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 15px;
+}

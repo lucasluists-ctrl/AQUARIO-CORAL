@@ -5,14 +5,16 @@
     <!-- Meta tags obrigatórias -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Lucas e Gabriel">
-    <meta name="description" content="Seu description aqui">
+    <meta name="description"
+        content="Compre seus ingressos para o Aquário Coral e descubra a beleza do mundo subaquático.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Suas palavras-chave aqui">
+    <meta name="keywords" content="ingresso, aquario, coral, visita, bilhete">
     <title>Ingresso - Aquario Coral </title>
 
     <!-- Link para o arquivo CSS -->
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/ingresso.css">
 
 </head>
 
@@ -66,3 +68,163 @@
 
 
     </header>
+
+    <main>
+        <!-- Banner -->
+        <section class="banner-ingresso">
+
+            <div class="texto-banner-ingresso">
+                <h1>Garanta sua visita ao Aquário Coral!</h1>
+
+                <p>
+                    Venha conhecer de perto a beleza e a diversidade
+                    do mundo subaquático.
+                </p>
+            </div>
+
+        </section>
+        <div class="conteudo-ingressos">
+            <!-- Preços -->
+            <section class="precos-ingresso">
+
+                <h2>Nossos ingressos</h2>
+
+                <p class="subtitulo-ingresso">
+                    Escolha a opção que melhor combina com você.
+                </p>
+
+                <div class="lista-ingressos">
+
+                    <div class="cartao-ingresso">
+                        <h3>Inteira</h3>
+                        <p class="preco">R$ 40,00</p>
+                        <p>Valor integral para visitação.</p>
+                    </div>
+
+                    <div class="cartao-ingresso">
+                        <h3>Meia-entrada</h3>
+                        <p class="preco">R$ 20,00</p>
+                        <p>Mediante comprovação do direito.</p>
+                    </div>
+
+                    <div class="cartao-ingresso">
+                        <h3>Estudante</h3>
+                        <p class="preco">R$ 20,00</p>
+                        <p>Apresentar documento estudantil.</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- Compra -->
+            <section class="compra-ingresso">
+
+                <h2>Planeje sua visita</h2>
+
+                <p>Confira as opções para organizar sua compra.</p>
+
+                <div class="formulario-ingresso">
+
+                    <label for="data">Data da visita</label>
+                    <input type="date" id="data">
+
+                    <label for="quantidade-inteira">Ingressos inteiros</label>
+                    <input type="number" id="quantidade-inteira" min="0" value="0">
+
+                    <label for="quantidade-meia">Meia-entrada</label>
+                    <input type="number" id="quantidade-meia" min="0" value="0">
+
+                    <label for="quantidade-estudante">Ingressos de estudante</label>
+                    <input type="number" id="quantidade-estudante" min="0" value="0">
+
+                    <div class="resumo-compra">
+                        <h3>Resumo da compra</h3>
+                        <p>Selecione seus ingressos para continuar.</p>
+                        <h2>Valor total: R$ 0,00</h2>
+                    </div>
+
+                    <button type="button" class="botao-compra">
+                        Finalizar compra
+                    </button>
+
+                </div>
+        </div>
+        </section>
+
+        <!-- SESSÃO DE HORARIOS -->
+
+        <section class="horarios" id="horarios">
+
+            <div class="texto-horarios">
+                <h2>Horários de funcionamento</h2>
+                <p>Planeje sua visita e venha conhecer o mundo marinho!</p>
+            </div>
+
+            <div class="quadro-horarios">
+                <div class="dia-horario">
+                    <h3>Segunda a sexta</h3>
+                    <p>09h às 18h</p>
+                </div>
+
+                <div class="dia-horario">
+                    <h3>Sábados</h3>
+                    <p>09h às 19h</p>
+                </div>
+
+                <div class="dia-horario">
+                    <h3>Domingos e feriados</h3>
+                    <p>10h às 17h</p>
+                </div>
+            </div>
+
+            <p class="aviso-horarios">
+                Última entrada permitida até 1 hora antes do fechamento.
+            </p>
+
+        </section>
+        <!-- Informações -->
+        <section class="informacoes-ingresso">
+
+            <h2>Informações importantes</h2>
+
+            <p>
+                • Apresente seu ingresso na entrada do aquário.
+            </p>
+
+            <p>
+                • Os ingressos com desconto exigem comprovação.
+            </p>
+
+            <p>
+                • Crianças devem estar acompanhadas de um responsável.
+            </p>
+
+            <p>
+                • Confira nossos horários de funcionamento antes da visita.
+            </p>
+
+        </section>
+
+
+    </main>
+
+    <!-- rodapé -->
+    <footer class=rodape>
+
+        <h2> Aquário Coral</h2>
+
+        <p> Descubra a beleza do mundo subaquatico</p>
+
+        <div class="redes-sociais">
+            <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+        </div>
+
+        <p class="direitos">
+            © 2026 Aquário Coral. Todos os direitos reservados.
+        </p>
+
+    </footer>

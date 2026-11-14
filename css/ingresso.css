@@ -1,0 +1,233 @@
+/* Banner */
+
+.banner-ingresso {
+    width: 100%;
+    height: 450px;
+    background-image: url("../img/banner-ingresso.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.texto-banner-ingresso {
+    width: 45%;
+}
+
+.texto-banner-ingresso h1 {
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.texto-banner-ingresso p {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+/* Ingressos e compra */
+
+.conteudo-ingressos {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 70px 5%;
+    background-color: #f1f8fc;
+}
+
+.precos-ingresso {
+    width: 55%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.precos-ingresso>h2,
+.compra-ingresso>h2 {
+    color: #0751a5;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.subtitulo-ingresso {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.lista-ingressos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.cartao-ingresso {
+    width: 80%;
+    background-color: white;
+    padding: 25px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cartao-ingresso h3 {
+    color: #0751a5;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.preco {
+    color: #1686b9;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cartao-ingresso p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.compra-ingresso {
+    width: 45%;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.compra-ingresso>p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.formulario-ingresso {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.formulario-ingresso label {
+    color: #0751a5;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.formulario-ingresso input {
+    padding: 12px;
+    border: 1px solid #b5d9e9;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.resumo-compra {
+    background-color: #f1f8fc;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.resumo-compra h3 {
+    color: #0751a5;
+    margin-bottom: 10px;
+}
+
+.resumo-compra h2 {
+    color: #1686b9;
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.botao-compra {
+    background-color: #0751a5;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.botao-compra:hover {
+    background-color: #1686b9;
+}
+
+
+/* Horários */
+
+.horarios {
+    background-color: #eaf7fc;
+    padding: 80px 13%;
+    text-align: center;
+}
+
+.texto-horarios h2 {
+    color: #0751a5;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.texto-horarios p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.quadro-horarios {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.dia-horario {
+    background-color: white;
+    width: 250px;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+
+.dia-horario h3 {
+    color: #0751a5;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.dia-horario p {
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.aviso-horarios {
+    margin-top: 30px;
+    color: #555;
+    font-size: 15px;
+}
+
+
+/* Informações */
+
+.informacoes-ingresso {
+    background-color: #eaf7fc;
+    padding: 60px 13%;
+}
+
+.informacoes-ingresso h2 {
+    color: #0751a5;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.informacoes-ingresso p {
+    font-size: 17px;
+    line-height: 2;
+    color: #333;
+}
