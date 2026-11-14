@@ -1,0 +1,175 @@
+/* BANNER QUEM SOMOS */
+
+.banner-sobre {
+    width: 100%;
+    height: 300px;
+    background-color: #0751a5;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 13%;
+    position: relative;
+}
+
+.banner-sobre h1 {
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+    width: 60%;
+}
+
+.banner-sobre img {
+    width: 380px;
+    position: absolute;
+    right: 5%;
+    top: 0;
+}
+
+/* QUEM SOMOs */
+
+.quem-somos {
+    background-color: #f1f8fc;
+    padding: 80px 13%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.quem-somos img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.texto-sobre {
+    width: 50%;
+}
+
+.texto-sobre h2 {
+    color: #0751a5;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.texto-sobre p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* NOSSA HISTORIA */
+
+.nossa-historia {
+    background-color: #f1f8fc;
+    padding: 80px 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nossa-historia img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.texto-historia {
+    width: 50%;
+}
+
+.texto-historia h2 {
+    color: #0751a5;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.texto-historia p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* NOSSO COMPROMISSO */
+
+.nosso-compromisso {
+    background-color: #f1f8fc;
+    padding: 80px 13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.nosso-compromisso img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.texto-compromisso {
+    width: 50%;
+}
+
+.texto-compromisso h2 {
+    color: #0751a5;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.texto-compromisso p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* HORARIOS */
+
+.horarios {
+    background-color: #eaf7fc;
+    padding: 80px 13%;
+    text-align: center;
+}
+
+.texto-horarios h2 {
+    color: #0751a5;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.texto-horarios p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.quadro-horarios {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.dia-horario {
+    background-color: white;
+    width: 250px;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+
+.dia-horario h3 {
+    color: #0751a5;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.dia-horario p {
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.aviso-horarios {
+    margin-top: 30px;
+    color: #555;
+    font-size: 15px;
+}
